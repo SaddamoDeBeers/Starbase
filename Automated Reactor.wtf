@@ -1,2 +1,2 @@
 if :Battery<5500 then:GeneratorUnitRateLimit=100 end
-if :Battery(greaterthansymbol)9850 then :GeneratorUnitRateLimit=0 end goto1
+if :Battery>9850 then :GeneratorUnitRateLimit=0 end goto1
